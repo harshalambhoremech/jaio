@@ -6,6 +6,8 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class Homepage {
+	
+	// elicps has good ui
 	@FindBy(xpath = "//*[ @id='branding']//a[@id='welcome']")
 	private WebElement meanu;
 	//I am a tester
